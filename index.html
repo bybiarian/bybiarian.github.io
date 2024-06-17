@@ -22,18 +22,6 @@
       crossorigin="anonymous"
     />
     <link rel="icon" type="image/x-icon" href="/assets/sq.png" />
-    <script>
-      // Function to detect iOS platform
-      function isIOS() {
-        // Using userAgent to detect iOS devices
-        return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-      }
-    
-      // Check if the current platform is iOS and add class to disable animation
-      if (isIOS()) {
-        document.documentElement.classList.add('disable-animation');
-      }
-    </script>
     <style>
       /* Custom rainbow gradient animation */
       @keyframes rainbow {
@@ -65,10 +53,6 @@
         transform: translate(-50%, -50%);
         text-align: center;
         color: white;
-      }
-      /* CSS to disable animation */
-      .disable-animation {
-        animation: none !important;
       }
     </style>
   </head>
