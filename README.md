@@ -12,4 +12,4 @@ We don't always want to be a one-person-show, or even just a simple website. We 
 
 ## How can you help?
 
-Please feel free to contact us at *team@safelyqueer.org* with any resources in your own community, insights, or contact information that you think our clients would benefit from. We're not yet looking for developers to flush out an interactive platform, but when that day comes it will be announced both here, and on our website. 
+Please feel free to contact us at *team@safelyqueer.org* with any resources in your own community, insights, or contact information that you think our clients would benefit from. We're not yet looking for developers to flush out an interactive platform, but when that day comes it will be announced both here and on our website. 
