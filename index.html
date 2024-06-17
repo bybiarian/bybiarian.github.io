@@ -22,6 +22,39 @@
       crossorigin="anonymous"
     />
     <link rel="icon" type="image/x-icon" href="/assets/sq.png" />
+    <style>
+      /* Custom rainbow gradient animation */
+      @keyframes rainbow {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      /* Apply animation to the body */
+      body {
+        animation: rainbow 23s linear infinite; /* Adjusted animation duration for original speed */
+        background: linear-gradient(-45deg, #ffb6c1, #87cefa, #90ee90, #ffcc80, #ffccff); /* Pastel colors */
+        background-size: 400% 400%; /* Increased background size for smoother animation */
+        margin: 0; /* Remove default margin */
+        height: 100vh; /* Set body height to full viewport height */
+      }
+
+      /* Center content vertically */
+      .bg-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <a class="btn btn-danger" href="https://www.google.com" style="position: fixed; bottom: 20px; right: 20px;">
